@@ -1,7 +1,8 @@
+[![Coverage Status](https://coveralls.io/repos/github/github-mxf/mall/badge.svg?branch=master)](https://coveralls.io/github/github-mxf/mall?branch=master)
 # mall
 
 > 在线商城
-> 
+>
 
 ## Build Setup
 
