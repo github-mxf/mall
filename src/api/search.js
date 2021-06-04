@@ -53,7 +53,7 @@ export const getSearchResult = keyword => {
 
 // test
 export const getUrlParam = param => {
-  const search = window.location.search?.replace('?', '').split('&') || []
+  const search = window.location.search ? window.location.searchreplace('?', '').split('&') : []
   for (let item of search) {
     if (item.indexOf('=') > -1) {
       return item.split('=')[1]
