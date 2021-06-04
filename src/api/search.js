@@ -52,10 +52,10 @@ export const getSearchResult = keyword => {
 }
 
 // test
-export const getUrlParam = param => {
+export function getUrlParam (param) {
   const search = window.location.search ? window.location.searchreplace('?', '').split('&') : []
   for (let item of search) {
-    if (item.indexOf('=') > -1) {
+    if (item.indexOf(param + '=') > -1) {
       return item.split('=')[1]
     }
   }
