@@ -37,7 +37,7 @@ module.exports = {
   // match files to be tested
   testMatch: ['**/__test__/**/(*.)+(spec|test).[jt]s?(x)'],
   // set the URL for the jsdom environment. It is reflected in properties such as location.href
-  testURL: 'https://so.m.jd.com',
+  // testURL: 'https://so.m.jd.com',
   // default timeout of a test in milliseconds
   testTimeout: 50000,
   // automatically clear mock calls and instances before every test. Equivalent to calling jest.clearAllMocks() before each test
