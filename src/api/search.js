@@ -50,3 +50,14 @@ export const getSearchResult = keyword => {
     })
   })
 }
+
+// test
+export const getUrlParam = param => {
+  const search = window.location.search?.replace('?', '').split('&') || []
+  for (let item of search) {
+    if (item.indexOf('=') > -1) {
+      return item.split('=')[1]
+    }
+  }
+  return ''
+}
