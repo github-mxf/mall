@@ -52,12 +52,12 @@ export const getSearchResult = keyword => {
 }
 
 // test
-export function getUrlParam (param) {
-  const search = window.location.search ? window.location.searchreplace('?', '').split('&') : []
-  for (let item of search) {
-    if (item.indexOf(param + '=') > -1) {
-      return item.split('=')[1]
-    }
-  }
-  return ''
-}
+// export function getUrlParam (param) {
+//   const search = window.location.search ? window.location.searchreplace('?', '').split('&') : []
+//   for (let item of search) {
+//     if (item.indexOf(param + '=') > -1) {
+//       return item.split('=')[1]
+//     }
+//   }
+//   return ''
+// }
